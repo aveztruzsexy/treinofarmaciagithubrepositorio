@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 import numpy as np
 
 # Carregando o DataFrame
-df = pd.read_csv(r'C:\Users\andre\Documents\GitHub\painel_farmacia\André\treinofarmacia\vendas.csv')
+df = pd.read_csv(r'C:\Users\andre\Documents\GitHub\painel_farmacia\André\treinofarmaciagithubrepositorio\vendas.csv')
 
 # Convertendo a coluna de data
 df['mês/ano'] = pd.to_datetime(df['mês/ano'], format='%m/%Y')
